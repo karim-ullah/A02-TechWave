@@ -39,6 +39,7 @@
     .contain{
         max-width: 1200px;
         margin: 0 auto;
+
     }
     .font-inter{
         font-family: "Inter", sans-serif;
@@ -98,7 +99,9 @@
         font-size: 40px;
     }
     .contain{
-        width: 95%;
+        width: 100%;
+        padding-left:10px;
+        padding-right: 10px;
     }
     .menu, .btn{
         display: none;

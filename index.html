@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechWave</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/4529a957fb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Styles/tailwind.css">
     
 
@@ -28,8 +29,8 @@
                 </ul>
             </div>
            <div class="btn">
-                <button class="bg-gradient-to-b from-[#F7E93F] to-[#9100F8] rounded-[12px] px-4 py-3 text-[#fff] cursor-pointer">
-                Subscribe
+                <button class="bg-gradient-to-b from-[#F7E93F] to-[#9100F8] rounded-[12px] px-4 py-3 text-[#fff] cursor-pointer animate-bounce">
+                Subscribe <i class="fa-solid fa-arrow-right"></i>
              </button>
            </div>
 
@@ -40,6 +41,7 @@
         </nav>
 
         <div class="hero-section bg-[url(assets/hero-bg.png)] bg-no-repeat bg-cover bg-center py-[100px] border-t-1 border-[#412567]">
+        <section class="contain">
             <div class="hero-img flex justify-center items-center">
                 <div class="relative">
                      <img src="assets/hero-circle.png" alt="">
@@ -56,10 +58,11 @@
                 <h1>TechWave</h1>
                 <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
                 <div class="hero-btn flex justify-center items-center gap-[8px] mt-[24px]">
-                    <button class="bg-gradient-to-b from-[#F7E93F] to-[#9100F8] rounded-[50px] px-[20px] py-[12px] text-[#fff] cursor-pointer">Listen on Spotify</button>
-                    <button class="border-1 border-[#00FF88] rounded-[50px] px-[20px] py-[12px] text-[#fff] cursor-pointer">Subscribe</button>
+                    <button class="bg-gradient-to-b from-[#F7E93F] to-[#9100F8] rounded-[50px] px-[20px] py-[12px] text-[#fff] cursor-pointer"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+                    <button class="border-1 border-[#00FF88] rounded-[50px] px-[20px] py-[12px] text-[#fff] cursor-pointer"><i class="fa-regular fa-envelope"></i> Subscribe</button>
                 </div>
             </div>
+        </section>
         </div>
      </Header>
     <!-- Header-Section-Close -->
