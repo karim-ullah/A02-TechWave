@@ -1,3 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 @import "tailwindcss";
+
+
+
+
+@layer utilities{
+    .contain{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .font-inter{
+        font-family: "Inter", sans-serif;
+    }
+    
+}
+
+
+
+/* Responsive For medium Screen */
+
+@media screen and (max-width:992px){
+    .contain{
+        width: 98%;
+    }
+}
+
+
+/* Responsive for mobile divices */
+
+@media screen and (max-width: 576px){
+    .contain{
+        width: 95%;
+    }
+    .menu, .btn{
+        display: none;
+    }
+    .menu-icon{
+        display: inline;
+    }
+}
+
+
+
